@@ -12,7 +12,7 @@ struct LocalStorage {
     
     static let shared = LocalStorage()
     
-    private init() { }
+    private init() {  }
     
     @AppStorage("APP_LINK") private var appLink = ""
     @AppStorage("FIRST_LAUNCH") private var firstLaunch = true
